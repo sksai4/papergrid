@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papergrid Clone with Bootstrap Only</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="32x32.webp">
+    <style>
+        /* Add margin to cards for spacing */
+        .card {
+            margin-bottom: 10px; /* Space between rows */
+        }
+        /* Optional: Adjust the text alignment and padding in the image-with-text section */
+        .image-with-text__content {
+            padding: 20px;
+            text-align: center; /* Center text for a cleaner look */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Papergrid Clone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Track</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/1.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/2.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/4.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 4 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/3.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 5 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/5.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 6 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/6.jpg?v=1657032448" 
+                     alt="" 
+                     class="img-fluid img-thumbnail" 
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 7 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/123.png?v=1679400243"
+                     alt=""
+                     class="img-fluid img-thumbnail"
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 8 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/444.png?v=1679392484"
+                     alt=""
+                     class="img-fluid img-thumbnail"
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+            <!-- Card 9 -->
+            <div class="col">
+                <img src="//papergrid.in/cdn/shop/files/555_d136cdc4-335c-482a-8037-07fd43fb2c3b.png?v=1679394448"
+                     alt=""
+                     class="img-fluid img-thumbnail"
+                     style="max-width: 323px; max-height: 323px; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Image with Text Section -->
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <img src="//papergrid.in/cdn/shop/files/1A.jpg?v=1680248796" 
+                     alt="A Note From Our Founder" 
+                     class="img-fluid img-thumbnail" 
+                     style="width: 375px; height: 501px; object-fit: cover;">
+            </div>
+            <div class="col-md-6">
+                <div class="image-with-text__content">
+                    <h2 class="image-with-text__heading h2">A Note From Our Founder</h2>
+                    <p>Rohil Sethi, Founder &amp; MD of Papergrid Industries</p>
+                    <a href="/pages/about-us" class="btn btn-primary">About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <!-- Centered Contact Us Section -->
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-6">
+                    <h2 class="footer-block__heading mb-3">Contact Us</h2>
+                    <p><a href="tel:+919830933754" class="text-white">+91-9830933754</a></p>
+                    <p><a href="tel:+918041644555" class="text-white">+91-8041644555</a></p>
+                    <p><a href="mailto:ecommerce@papergrid.in" class="text-white">ecommerce@papergrid.in</a></p>
+                </div>
+            </div>
+
+            <!-- Centered Instagram Icon -->
+            <div class="text-center mt-3">
+                <a href="https://www.instagram.com/papergridindia" class="link list-social__link d-inline-block">
+                    <svg aria-hidden="true" focusable="false" class="icon icon-instagram" viewBox="0 0 18 18" 
+                         width="19" height="19" style="fill: white;">
+                        <path fill="currentColor" d="M8.77 1.58c2.34 0 2.62.01 3.54.05..."></path>
+                    </svg>
+                    <span class="visually-hidden">Instagram</span>
+                </a>
+            </div>
+            
+            <!-- Bottom Section with Left-Aligned Footer Links -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-md-start">
+                        <small class="d-block me-md-3">&copy; 2024, <a href="/" class="text-white">Papergrid Industries</a></small>
+                        <small class="d-block me-md-3"><a href="https://www.shopify.com" class="text-white">Powered by Shopify</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
